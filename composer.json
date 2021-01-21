@@ -1,0 +1,24 @@
+{
+    "name": "josalba/metrics",
+    "description": "Biblioteca para realizar metricas de un script de PHP",
+    "license": "MIT",
+    "keywords": ["metrics", "php"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "josAlba",
+            "email": "hola@josalba.dev"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/josAlba/metrics"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "metricas\\": "src"
+        }
+    }
+}
