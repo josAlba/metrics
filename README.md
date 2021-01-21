@@ -1,7 +1,13 @@
 # METRICS
 Biblioteca para realizar metricas de un script de PHP
 
-# Tiempo
+### Instalar
+#### Composer
+```bash
+$ composer require josalba/metrics
+```
+
+## Tiempo
 Calcular el tiempo de ejecucion de un fragmento del script.
 
 ```
@@ -15,7 +21,7 @@ echo $t;
 
 ```
 
-# Memoria
+## Memoria
 Calcula la memoria empleada por un script
 
 ```
